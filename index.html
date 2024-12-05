@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b7600b4b2c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Screenshot (253).png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark icon_1" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars icon_1" onclick="openmenu()"></i>
+           
+        </nav>
+        <!-- <img src="images/my_image.jpg" class="main"> -->
+        <div class="header-text">
+           
+            <div><p>Frontend Developer</p>
+            <h1>Hi,I am <span>Akanksha Chauhan</span><br> from India</h1>
+            
+            </div>
+            </div>
+            
+        </div>
+    </div>
+
+<div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-firstcol">
+         <img src="my_image_1-removebg-preview.png" class="text1" >
+        </div>
+        <div class="about-seccol">
+          <h1 class="sub-title">About Me</h1>
+          <p>Aspiring frontend developer with a passion for creating interactive, user-friendly, and visually appealing web interfaces. Proficient in modern frontend technologies and committed to delivering high-quality digital experiences.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            
+          </div>
+          <div class="tab-contents active-tab  " id="skills">
+            <ul>
+                <li><span>Frontend Technologies</span><br> Used to create UI for webpages</li>
+                <li><span>UI/UX</span><br> Designing web interfaces</li>
+                <li><span>Spring Boot</span><br>Used to build applications in less time</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2024-2025</span><br>Build a Responsive Portfolio website using HTML,CSS and JS </li>
+                <li><span>2023-2024</span><br>Research Paper on Face Generation Using GAN</li>
+                <li><span>2022-2023</span><br> Esports Organising website using HTML,CSS,JS,PHP</li>
+                
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2021-2025</span><br> BE-CSE:Chandigarh University-Mohali,Punjab</li>
+                <li><span>2020</span><br>Class XII:Delhi Public School-Kaithal,Haryana</li>
+                <li><span>2018</span><br>Class X:Dhruv Public School-Pundri,Haryana</li>
+            </ul>
+          </div>
+
+
+
+          
+        </div>
+    </div>
+</div>
+<div>
+
+</div>
+<!-- services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Web development is the process of creating, building, and maintaining websites and web applications 
+                    that are accessed via the internet. It encompasses a variety of tasks and disciplines that contribute
+                     to the functionality, performance, and user experience of a website.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Spring Boot App Development</h2>
+                <p>Spring Boot is a framework built on top of the Spring Framework that simplifies the process of creating 
+                    and deploying production-ready Java applications. It provides pre-configured setups and reduces the
+                     amount of boilerplate code, making development faster and more efficient.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>UI/UX Design refers to the process of designing digital products, such as websites and mobile applications,
+                     focusing on usability, accessibility, and user experience. While UI (User Interface) focuses on the
+                      aesthetics and interactive elements, UX (User Experience) is about the overall feel and functionality 
+                      of the product.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------portfolio-------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Social Media Web App</h3>
+                    <p>The website connects you to talented people all over the world .Download it from playstore.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The website enables users to listen to their favorite songs .Download it from playstore.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The website makes easier for users to shop online more efficiently .Download it from playstore.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+
+    </div>
+</div>
+<!-- ----------------Contact------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane "></i>akankshac7000@gmail.com</p>
+                <p><i class="fa-solid fa-phone "></i>+91-9350045319</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="21BCS5629_Akanksha(Resume).pdf" download class ="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://formspree.io/f/movqryvk" method="POST" name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" placeholder="Your message" row="6"></textarea>
+                    <button type="submit"  class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &#169 Akanksha Chauhan.Made by Akanksha Chauhan</p>
+    </div>
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-links");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzrxwnM27npJoXcPy93CNNjXUdJSvYMZHSM-dYyMvQQRkvYzljiBfmYFkvNtPk_naJW/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
